@@ -1,0 +1,45 @@
+{
+  "model_name": "model_4_pr_threshold_logistic",
+  "threshold": 0.3,
+  "feature_names_before_const": [
+    "ID",
+    "Age",
+    "Income",
+    "Family",
+    "CCAvg",
+    "Mortgage",
+    "SecuritiesAccount",
+    "CDAccount",
+    "Online",
+    "CreditCard",
+    "Regions_Central",
+    "Regions_Los Angeles Region",
+    "Regions_Southern",
+    "Regions_Superior",
+    "Regions_Unknown",
+    "Education_2",
+    "Education_3"
+  ],
+  "final_feature_names": [
+    "const",
+    "ID",
+    "Income",
+    "Family",
+    "CCAvg",
+    "SecuritiesAccount",
+    "CDAccount",
+    "Online",
+    "CreditCard",
+    "Regions_Unknown",
+    "Education_2",
+    "Education_3"
+  ],
+  "drop_columns_for_final_model": [
+    "Regions_Central",
+    "Regions_Los Angeles Region",
+    "Regions_Southern",
+    "Regions_Superior",
+    "Age",
+    "Mortgage"
+  ]
+}

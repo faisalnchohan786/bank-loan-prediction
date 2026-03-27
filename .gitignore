@@ -1,0 +1,34 @@
+# Virtual environment
+.venv/
+pyvenv.cfg
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+.qodo/
+
+# Logs
+*.log
+
+# Local raw data
+data/raw/*.csv
+
+# Optional generated outputs
+# Uncomment these if you do not want to upload generated artifacts
+# models/*.pkl
+# models/*.joblib
+# reports/*.csv
+# images/*.png

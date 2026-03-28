@@ -22,13 +22,3 @@ Thumbs.db
 
 # Logs
 *.log
-
-# Local raw data
-# data/raw/*.csv
-
-# Optional generated outputs
-# Uncomment these if you do not want to upload generated artifacts
-# models/*.pkl
-# models/*.joblib
-# reports/*.csv
-# images/*.png

@@ -39,7 +39,7 @@ class TrainingArtifacts:
 def fit_statsmodels_logit(X_train: pd.DataFrame, y_train: pd.Series):
     X_train_const = sm.add_constant(X_train, has_constant="add")
     model = sm.Logit(y_train, X_train_const.astype(float))
-    result = model.fit(disp=False)
+    result = model.fit(disp=False, maxiter=1000)
     return result
 
 

@@ -1,5 +1,12 @@
 # Bank Loan Prediction
 
+![Python](https://img.shields.io/badge/Python-3.9+-blue)
+![Scikit-Learn](https://img.shields.io/badge/ML-Scikit--Learn-orange)
+![Logistic Regression](https://img.shields.io/badge/Model-Logistic%20Regression-success)
+![Streamlit](https://img.shields.io/badge/App-Streamlit-red)
+![Status](https://img.shields.io/badge/Status-Portfolio%20Ready-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
 An end-to-end machine learning project for predicting whether a customer will accept a personal loan offer.
 
 ## Project overview
@@ -210,4 +217,7 @@ This project is organised in a more production-style format:
 - training and inference are separated
 - model artifacts are saved and reloadable
 - a lightweight app is included to demonstrate user-facing inference
+
+## 🏷️ Tags
+`Machine Learning` `Classification` `Logistic Regression` `Threshold Tuning` `Precision-Recall` `Scikit-Learn` `Streamlit` `End-to-End Project` `Portfolio Project` `Banking Analytics`
 

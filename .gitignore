@@ -24,7 +24,7 @@ Thumbs.db
 *.log
 
 # Local raw data
-data/raw/*.csv
+# data/raw/*.csv
 
 # Optional generated outputs
 # Uncomment these if you do not want to upload generated artifacts
